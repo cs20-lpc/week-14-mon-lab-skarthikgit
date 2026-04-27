@@ -20,19 +20,18 @@ int main() {
 
     // display menu
     cout << "Welcome to my dictionary program!\n";
-    cout << "Here are your options:\n";
-    cout << "\t1. Find\n";
-    cout << "\t2. Insert\n";
-    cout << "\t3. Remove\n";
-    cout << "\t4. Sort\n";
-    cout << "\t5. Size\n";
-    cout << "\t6. Clear\n";
-    cout << "\t7. Print\n";
-    cout << "\t8. Quit\n";
 
     // loop until the user quits
     do {
-        cout << "Enter your option: ";
+        cout << "Here are your options:\n";
+        cout << "\t1. Find\n";
+        cout << "\t2. Insert\n";
+        cout << "\t3. Remove\n";
+        cout << "\t4. Sort\n";
+        cout << "\t5. Size\n";
+        cout << "\t6. Clear\n";
+        cout << "\t7. Print\n";
+        cout << "\t8. Quit\n";
         cin  >> userChoice;
 
         switch (userChoice) {
